@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.naser.omar.androideitserver.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            app:srcCompat="@drawable/logo_eat_it"
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+             />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txtSlogan"
+            android:text="@string/slogan"
+            android:textColor="@color/white"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<Button-->
+            <!--android:id="@+id/btnSingnUp"-->
+            <!--android:text="SingnUp"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:onClick="Singup"-->
+            <!--/>-->
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSingnUp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@color/btnSignUp"
+            android:backgroundTint="@color/btnSignUp"
+            android:onClick="Singup"
+            android:text="SingnUp"
+            android:textColor="@android:color/white"
+            app:buttonColor="@color/btnSignUp"
+            app:shadowColor="@android:color/black" />
+        <!--<Button-->
+            <!--android:id="@+id/btnSignIn"-->
+            <!--android:text="SingnIn"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:onClick="Singin"-->
+
+
+            <!--/>-->
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSignIn"
+            android:text="SingnIn"
+            android:onClick="Singin"
+            android:textColor="@color/btnSignUp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:backgroundTint="@android:color/white"
+            app:buttonColor="@color/fbutton_color_midnight_blue"
+            app:shadowColor="@android:color/black"
+
+        />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "929223706827",
+    "firebase_url": "https://androideatlt-3c0d9.firebaseio.com",
+    "project_id": "androideatlt-3c0d9",
+    "storage_bucket": "androideatlt-3c0d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929223706827:android:ed4f364b27c19b32",
+        "android_client_info": {
+          "package_name": "com.examduple2sasd22.accoundomar.orderfoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929223706827-5lotu0od3soq0220ku5140bi3t7aadle.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.examduple2sasd22.accoundomar.orderfoods",
+            "certificate_hash": "b7efdecab65c0ea78f57a6aba6fc832223875ab7"
+          }
+        },
+        {
+          "client_id": "929223706827-v4e0c0djl7hng28bvtlogsnmv7bkk1eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiJixuW25Dpyy7735bYx4YMpFIM2kHWIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929223706827-v4e0c0djl7hng28bvtlogsnmv7bkk1eb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929223706827:android:40148ffc5f2a9742",
+        "android_client_info": {
+          "package_name": "com.naser.omar.androideitserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929223706827-v9bnqccv4nr1bh9s199ip57rf3neiams.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naser.omar.androideitserver",
+            "certificate_hash": "d9bc32aa8f5d14448744d72bc4289af8904479ef"
+          }
+        },
+        {
+          "client_id": "929223706827-v4e0c0djl7hng28bvtlogsnmv7bkk1eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiJixuW25Dpyy7735bYx4YMpFIM2kHWIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929223706827-v4e0c0djl7hng28bvtlogsnmv7bkk1eb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
